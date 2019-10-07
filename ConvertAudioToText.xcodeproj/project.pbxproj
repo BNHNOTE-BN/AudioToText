@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA9F6E55234ACCE0002BAEE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F6E54234ACCE0002BAEE1 /* AppDelegate.swift */; };
+		FA9F6E57234ACCE0002BAEE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F6E56234ACCE0002BAEE1 /* ViewController.swift */; };
+		FA9F6E5A234ACCE0002BAEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9F6E58234ACCE0002BAEE1 /* Main.storyboard */; };
+		FA9F6E5C234ACCF4002BAEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9F6E5B234ACCF4002BAEE1 /* Assets.xcassets */; };
+		FA9F6E5F234ACCF4002BAEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9F6E5D234ACCF4002BAEE1 /* LaunchScreen.storyboard */; };
+		FA9F6E6A234ACCF4002BAEE1 /* ConvertAudioToTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F6E69234ACCF4002BAEE1 /* ConvertAudioToTextTests.swift */; };
+		FA9F6E75234ACCF4002BAEE1 /* ConvertAudioToTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F6E74234ACCF4002BAEE1 /* ConvertAudioToTextUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA9F6E66234ACCF4002BAEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9F6E49234ACCE0002BAEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9F6E50234ACCE0002BAEE1;
+			remoteInfo = ConvertAudioToText;
+		};
+		FA9F6E71234ACCF4002BAEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9F6E49234ACCE0002BAEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9F6E50234ACCE0002BAEE1;
+			remoteInfo = ConvertAudioToText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA9F6E51234ACCE0002BAEE1 /* ConvertAudioToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertAudioToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9F6E54234ACCE0002BAEE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA9F6E56234ACCE0002BAEE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA9F6E59234ACCE0002BAEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9F6E5B234ACCF4002BAEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA9F6E5E234ACCF4002BAEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA9F6E60234ACCF4002BAEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9F6E65234ACCF4002BAEE1 /* ConvertAudioToTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertAudioToTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9F6E69234ACCF4002BAEE1 /* ConvertAudioToTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAudioToTextTests.swift; sourceTree = "<group>"; };
+		FA9F6E6B234ACCF4002BAEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9F6E70234ACCF4002BAEE1 /* ConvertAudioToTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertAudioToTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9F6E74234ACCF4002BAEE1 /* ConvertAudioToTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAudioToTextUITests.swift; sourceTree = "<group>"; };
+		FA9F6E76234ACCF4002BAEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9F6E4E234ACCE0002BAEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F6E62234ACCF4002BAEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F6E6D234ACCF4002BAEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9F6E48234ACCE0002BAEE1 = {
+			isa = PBXGroup;
+			children = (
+				FA9F6E53234ACCE0002BAEE1 /* ConvertAudioToText */,
+				FA9F6E68234ACCF4002BAEE1 /* ConvertAudioToTextTests */,
+				FA9F6E73234ACCF4002BAEE1 /* ConvertAudioToTextUITests */,
+				FA9F6E52234ACCE0002BAEE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9F6E52234ACCE0002BAEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F6E51234ACCE0002BAEE1 /* ConvertAudioToText.app */,
+				FA9F6E65234ACCF4002BAEE1 /* ConvertAudioToTextTests.xctest */,
+				FA9F6E70234ACCF4002BAEE1 /* ConvertAudioToTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9F6E53234ACCE0002BAEE1 /* ConvertAudioToText */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F6E54234ACCE0002BAEE1 /* AppDelegate.swift */,
+				FA9F6E56234ACCE0002BAEE1 /* ViewController.swift */,
+				FA9F6E58234ACCE0002BAEE1 /* Main.storyboard */,
+				FA9F6E5B234ACCF4002BAEE1 /* Assets.xcassets */,
+				FA9F6E5D234ACCF4002BAEE1 /* LaunchScreen.storyboard */,
+				FA9F6E60234ACCF4002BAEE1 /* Info.plist */,
+			);
+			path = ConvertAudioToText;
+			sourceTree = "<group>";
+		};
+		FA9F6E68234ACCF4002BAEE1 /* ConvertAudioToTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F6E69234ACCF4002BAEE1 /* ConvertAudioToTextTests.swift */,
+				FA9F6E6B234ACCF4002BAEE1 /* Info.plist */,
+			);
+			path = ConvertAudioToTextTests;
+			sourceTree = "<group>";
+		};
+		FA9F6E73234ACCF4002BAEE1 /* ConvertAudioToTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F6E74234ACCF4002BAEE1 /* ConvertAudioToTextUITests.swift */,
+				FA9F6E76234ACCF4002BAEE1 /* Info.plist */,
+			);
+			path = ConvertAudioToTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9F6E50234ACCE0002BAEE1 /* ConvertAudioToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9F6E79234ACCF4002BAEE1 /* Build configuration list for PBXNativeTarget "ConvertAudioToText" */;
+			buildPhases = (
+				FA9F6E4D234ACCE0002BAEE1 /* Sources */,
+				FA9F6E4E234ACCE0002BAEE1 /* Frameworks */,
+				FA9F6E4F234ACCE0002BAEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertAudioToText;
+			productName = ConvertAudioToText;
+			productReference = FA9F6E51234ACCE0002BAEE1 /* ConvertAudioToText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA9F6E64234ACCF4002BAEE1 /* ConvertAudioToTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9F6E7C234ACCF4002BAEE1 /* Build configuration list for PBXNativeTarget "ConvertAudioToTextTests" */;
+			buildPhases = (
+				FA9F6E61234ACCF4002BAEE1 /* Sources */,
+				FA9F6E62234ACCF4002BAEE1 /* Frameworks */,
+				FA9F6E63234ACCF4002BAEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9F6E67234ACCF4002BAEE1 /* PBXTargetDependency */,
+			);
+			name = ConvertAudioToTextTests;
+			productName = ConvertAudioToTextTests;
+			productReference = FA9F6E65234ACCF4002BAEE1 /* ConvertAudioToTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA9F6E6F234ACCF4002BAEE1 /* ConvertAudioToTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9F6E7F234ACCF4002BAEE1 /* Build configuration list for PBXNativeTarget "ConvertAudioToTextUITests" */;
+			buildPhases = (
+				FA9F6E6C234ACCF4002BAEE1 /* Sources */,
+				FA9F6E6D234ACCF4002BAEE1 /* Frameworks */,
+				FA9F6E6E234ACCF4002BAEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9F6E72234ACCF4002BAEE1 /* PBXTargetDependency */,
+			);
+			name = ConvertAudioToTextUITests;
+			productName = ConvertAudioToTextUITests;
+			productReference = FA9F6E70234ACCF4002BAEE1 /* ConvertAudioToTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9F6E49234ACCE0002BAEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BNH;
+				TargetAttributes = {
+					FA9F6E50234ACCE0002BAEE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FA9F6E64234ACCF4002BAEE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA9F6E50234ACCE0002BAEE1;
+					};
+					FA9F6E6F234ACCF4002BAEE1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA9F6E50234ACCE0002BAEE1;
+					};
+				};
+			};
+			buildConfigurationList = FA9F6E4C234ACCE0002BAEE1 /* Build configuration list for PBXProject "ConvertAudioToText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9F6E48234ACCE0002BAEE1;
+			productRefGroup = FA9F6E52234ACCE0002BAEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9F6E50234ACCE0002BAEE1 /* ConvertAudioToText */,
+				FA9F6E64234ACCF4002BAEE1 /* ConvertAudioToTextTests */,
+				FA9F6E6F234ACCF4002BAEE1 /* ConvertAudioToTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9F6E4F234ACCE0002BAEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9F6E5F234ACCF4002BAEE1 /* LaunchScreen.storyboard in Resources */,
+				FA9F6E5C234ACCF4002BAEE1 /* Assets.xcassets in Resources */,
+				FA9F6E5A234ACCE0002BAEE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F6E63234ACCF4002BAEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F6E6E234ACCF4002BAEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9F6E4D234ACCE0002BAEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9F6E57234ACCE0002BAEE1 /* ViewController.swift in Sources */,
+				FA9F6E55234ACCE0002BAEE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F6E61234ACCF4002BAEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9F6E6A234ACCF4002BAEE1 /* ConvertAudioToTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9F6E6C234ACCF4002BAEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9F6E75234ACCF4002BAEE1 /* ConvertAudioToTextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9F6E67234ACCF4002BAEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9F6E50234ACCE0002BAEE1 /* ConvertAudioToText */;
+			targetProxy = FA9F6E66234ACCF4002BAEE1 /* PBXContainerItemProxy */;
+		};
+		FA9F6E72234ACCF4002BAEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9F6E50234ACCE0002BAEE1 /* ConvertAudioToText */;
+			targetProxy = FA9F6E71234ACCF4002BAEE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA9F6E58234ACCE0002BAEE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9F6E59234ACCE0002BAEE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9F6E5D234ACCF4002BAEE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9F6E5E234ACCF4002BAEE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9F6E77234ACCF4002BAEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9F6E78234ACCF4002BAEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9F6E7A234ACCF4002BAEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 925LD6VDN2;
+				INFOPLIST_FILE = ConvertAudioToText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnh.ConvertAudioToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9F6E7B234ACCF4002BAEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 925LD6VDN2;
+				INFOPLIST_FILE = ConvertAudioToText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnh.ConvertAudioToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA9F6E7D234ACCF4002BAEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 925LD6VDN2;
+				INFOPLIST_FILE = ConvertAudioToTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnh.ConvertAudioToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertAudioToText.app/ConvertAudioToText";
+			};
+			name = Debug;
+		};
+		FA9F6E7E234ACCF4002BAEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 925LD6VDN2;
+				INFOPLIST_FILE = ConvertAudioToTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnh.ConvertAudioToTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertAudioToText.app/ConvertAudioToText";
+			};
+			name = Release;
+		};
+		FA9F6E80234ACCF4002BAEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 925LD6VDN2;
+				INFOPLIST_FILE = ConvertAudioToTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnh.ConvertAudioToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConvertAudioToText;
+			};
+			name = Debug;
+		};
+		FA9F6E81234ACCF4002BAEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 925LD6VDN2;
+				INFOPLIST_FILE = ConvertAudioToTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnh.ConvertAudioToTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConvertAudioToText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9F6E4C234ACCE0002BAEE1 /* Build configuration list for PBXProject "ConvertAudioToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9F6E77234ACCF4002BAEE1 /* Debug */,
+				FA9F6E78234ACCF4002BAEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9F6E79234ACCF4002BAEE1 /* Build configuration list for PBXNativeTarget "ConvertAudioToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9F6E7A234ACCF4002BAEE1 /* Debug */,
+				FA9F6E7B234ACCF4002BAEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9F6E7C234ACCF4002BAEE1 /* Build configuration list for PBXNativeTarget "ConvertAudioToTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9F6E7D234ACCF4002BAEE1 /* Debug */,
+				FA9F6E7E234ACCF4002BAEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9F6E7F234ACCF4002BAEE1 /* Build configuration list for PBXNativeTarget "ConvertAudioToTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9F6E80234ACCF4002BAEE1 /* Debug */,
+				FA9F6E81234ACCF4002BAEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9F6E49234ACCE0002BAEE1 /* Project object */;
+}
